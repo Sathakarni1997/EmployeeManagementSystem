@@ -5,4 +5,8 @@
     <UserSecretsId>ad0d7495-7597-4307-8295-7b26e202e42c</UserSecretsId>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\EmployeeManagementTest\EmployeeManagementTest.csproj" />
+  </ItemGroup>
+
 </Project>
