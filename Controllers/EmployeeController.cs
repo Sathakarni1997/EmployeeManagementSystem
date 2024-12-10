@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Linq;
 using EmployeeManagementSystem.Models;
-//using EmployeeManagementTest;
+using EmployeeManagementTest;
 
 namespace WebApplication1.Controllers
 {
@@ -9,8 +9,8 @@ namespace WebApplication1.Controllers
     {
         public IActionResult Index()
         {
-            //EdgeDriverTest test = new EdgeDriverTest();
-            //test.VerifyPageTitle();
+            EdgeDriverTest test = new EdgeDriverTest();
+            test.VerifyPageTitle();
             return View(Repository.AllEmployees);
         }
         [HttpPost]
